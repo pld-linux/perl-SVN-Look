@@ -17,9 +17,7 @@ Source0:	http://www.cpan.org/modules/by-authors/id/G/GN/GNUSTAVO/modules/SVN-Loo
 URL:		http://search.cpan.org/dist/SVN-Look/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
 BuildRequires:	subversion
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
