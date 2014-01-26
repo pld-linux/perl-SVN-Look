@@ -7,15 +7,16 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	SVN::Look - A caching wrapper aroung the svnlook command
 Name:		perl-SVN-Look
-Version:	0.20
-Release:	2
+Version:	0.39
+Release:	1
 # "same as perl"
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/G/GN/GNUSTAVO/modules/SVN-Look-%{version}.tar.gz
-# Source0-md5:	12537712a54aaa23f5d15d8fe023147d
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	48d0443d0bb2c4a79c3141e553e699b6
 URL:		http://search.cpan.org/dist/SVN-Look/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-XML-Simple
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	subversion
 BuildArch:	noarch
