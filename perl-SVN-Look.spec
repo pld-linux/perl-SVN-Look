@@ -4,7 +4,6 @@
 
 %define		pdir	SVN
 %define		pnam	Look
-%include	/usr/lib/rpm/macros.perl
 Summary:	SVN::Look - A caching wrapper aroung the svnlook command
 Name:		perl-SVN-Look
 Version:	0.39
