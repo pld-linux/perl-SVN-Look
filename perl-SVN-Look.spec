@@ -6,15 +6,16 @@
 %define		pnam	Look
 Summary:	SVN::Look - A caching wrapper aroung the svnlook command
 Name:		perl-SVN-Look
-Version:	0.39
-Release:	2
+Version:	0.43
+Release:	1
 # "same as perl"
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	48d0443d0bb2c4a79c3141e553e699b6
+Source0:	https://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	75f5eb52b58cc2eaf49342a2a094ebca
 URL:		http://search.cpan.org/dist/SVN-Look/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-List-MoreUtils
 BuildRequires:	perl-XML-Simple
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	subversion
